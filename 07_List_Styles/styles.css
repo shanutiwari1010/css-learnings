@@ -1,0 +1,25 @@
+body{
+    padding: 5% 10%;
+    font-size: 2rem;
+    font-family: sans-serif;
+}
+
+ol{
+    list-style-type: lower-alpha;
+}
+
+ul{
+    list-style-type: square;
+    text-align: center;
+    color: #00f;
+} 
+ul li:nth-child(odd){
+    color: red;
+}
+
+ul ::marker{
+    color: red;
+    font-size: 1em;
+    content: "Only $5 >>";
+    
+}
